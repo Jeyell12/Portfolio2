@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="https://kit.fontawesome.com/5d9acca92e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="styles/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-circle-chevron-down" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Designer</p>
+        <h1>Hi, I'm <span>John Lloyd</span> <br>Rosanes From Philippines</h1>
+      </div>
+    </div>
+  </div>
+  <!------------------ about ---------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/abouy.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hi, I'm John Lloyd, a web designer based in the Philippines. I specialize in creating visually appealing and user-friendly websites for a variety of purposes, including e-commerce, portfolios, and blogs.
+
+            My design philosophy revolves around the idea of balancing form and function. I believe that a website should not only look great but also be easy to use and navigate. With my passion for web design and constant pursuit of new technologies and trends, I am dedicated to delivering high-quality work that meets my clients' specific needs and exceeds their expectations.
+            
+            If you're looking for a web designer who is committed to creating exceptional websites and providing excellent customer service, I'm your guy. Feel free to browse through my portfolio, and let's discuss how I can help bring your website vision to life.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Developer</span><br>Front-end Developer/Web Desinger</li>
+              <li><span>Graphic Artist</span><br>Logo/Product Designer</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023</span><br>Virtual Assistant/Graphic Designer</li>
+              <li><span>2021-2022</span><br>Administrator Aide 1</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2018 - Present</span><br>Leyte Normal University</li>
+              <li><span>2012 - 2018</span><br>Leyte National High School</li>
+              <li><span>2007 - 2012</span><br>Remedios Trinidad Romualdez Elem. School</li>
+              <li><span>2005 - 2007</span><br>Divine Word University</li>
+            </ul>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+ <!------------- service -------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bars"></i>
+            <h2>Front-end Developer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>Graphic Artist</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#">learn more</a>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+  
+<!------------- service -------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/doctor.jpg" alt="">
+          <div class="layer">
+            <h3>Doctor</h3>
+            <p>As a doctor, I diagnose and treat health conditions and prioritize prevention and wellness through education and regular check-ups.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/astro.jpg" alt="">
+          <div class="layer">
+          <h3>Astronaut</h3>
+          <p>As an astronaut, I train extensively for spaceflight and conduct experiments and research on the International Space Station. My goal is to advance our understanding of the universe and push the boundaries of human exploration.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+          <img src="images/police.jpg" alt="">
+          <div class="layer">
+          <h3>Police</h3>
+          <p>As a police officer, I work to maintain public safety and uphold the law. I patrol the community, respond to emergencies, and investigate crimes to ensure that justice is served.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+      </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+<!------------- contact -------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>jlrosanes1@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0907916593</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/JLRosanes/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/itsjust.jeyell?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/RosanesJohn?t=ZvODmkkB2EQSJyk94lMQUw&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright 	&#169; John Lloyd 2023 <i class="fa-regular fa-face-smile"></i></p>
+    </div>
+  </div>
+
+
+
+
+  <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+      for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+     
+
+  </script>
+
+  <script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right = "0";
+    }
+    function closemenu(){
+      sidemeu.style.right = "-200px";
+    }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbznu9W7BMp1cySnq2Ym8RINS4Z7eWIe3pjGY7Pcsqj75xAMrdEvbKoy-pJzYyQMylVO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent Successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body> 
+</html>
